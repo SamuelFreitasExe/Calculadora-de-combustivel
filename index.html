@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Combustível</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Combustível</h1>
+        <div id="alerta" class="alert"></div>
+        <input type="number" id="meuInput1" placeholder="Valor da gasolina (R$/L)">
+        <input type="number" id="meuInput2" placeholder="Distância percorrida (km)">
+        <input type="number" id="meuInput3" placeholder="Consumo do veículo (km/L)">
+        <button onclick="total()">Calcular</button>
+        <p id="resposta"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
